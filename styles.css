@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    color: #222;
+}
+.music-list {
+    list-style: none;
+    padding: 0;
+}
+.music-list li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+}
+.cover-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 24px;
+    box-shadow: 0 0 8px #ddd;
+}
+.music-info {
+    flex: 1;
+}
+a {
+    text-decoration: none;
+    color: #317af7;
+}
+a.back-link {
+    display: inline-block;
+    margin-top: 24px;
+}
